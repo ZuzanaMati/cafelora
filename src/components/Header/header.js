@@ -1,4 +1,4 @@
-//import "./header.css"
+import "./header.css"
 
 export let Header = () => {
     let element = document.createElement("header")

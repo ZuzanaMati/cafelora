@@ -1,4 +1,4 @@
-//import "./banner.css"
+import "./banner.css"
 
 export let Banner = () => {
     let element = document.createElement("section")
