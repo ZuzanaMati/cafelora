@@ -5,7 +5,7 @@ export let Gallery = () => {
     element.classList.add("gallery")
     element.innerHTML = `
     <div class="container">
-          <div class="gallery__content">
+          <div id = "gallery" class="gallery__content">
             <h2>Nově otevřeno!</h2>
             <div class="gallery__cols">
               <p class="gallery__col">

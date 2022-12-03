@@ -1,9 +1,9 @@
 import "./contact.css"
 
 export let Contact = () => {
-    let element = document.createElement("section")
-    element.innerHTML = `
-    <div class="container">
+  let element = document.createElement("section")
+  element.innerHTML = `
+    <div id="contact" class="container">
           <h2>Kde nás najdete</h2>
           <div class="contact">
             <div class="contact__address">
@@ -27,5 +27,5 @@ export let Contact = () => {
         </div>
     `
 
-    return element
+  return element
 }
