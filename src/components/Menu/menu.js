@@ -1,5 +1,5 @@
 import "./menu.css"
-import { Drink } from "../Drink/drink.js"
+import { Drink } from "./components/Drink/drink.js"
 
 export let Menu = (props) => {
     let { items } = props

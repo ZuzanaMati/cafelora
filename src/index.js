@@ -15,9 +15,9 @@ main.append(
     Menu({
         items: [
             {
-                img: "lungo",
                 name: "lungo",
-                ingredients: [
+                image: "lungo",
+                layers: [
                     {
                         color: "red",
                         label: "doppio"
@@ -28,9 +28,9 @@ main.append(
                 ]
             },
             {
-                img: "doppio",
                 name: "doppio",
-                ingredients: [
+                image: "doppio",
+                layers: [
                     {
                         color: "red",
                         label: "doppio"
