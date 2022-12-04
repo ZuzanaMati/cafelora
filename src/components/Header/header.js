@@ -3,7 +3,7 @@ import "./header.css"
 export let Header = () => {
     let element = document.createElement("header")
     element.innerHTML = `
-    <div class="header__content container">
+    <div id="home" class="header__content container">
     <div class="site-logo"></div>
 
         <div class="navigation">
@@ -16,5 +16,23 @@ export let Header = () => {
           </nav>
           </div>
         </div>`
+
+    element.querySelector(".nav-btn").addEventListener("click", () => {
+        let rolloutNav = element.querySelector(".rollout-nav")
+        if (rolloutNav.classList.contains("nav-closed")) {
+            rolloutNav.classList.remove("nav-closed")
+        } else {
+            rolloutNav.classList.add("nav-closed")
+        }
+
+    })
+
+    element.querySelector(".rollout-nav").addEventListener("click", () => {
+        console.log("klik")
+        let rolloutNav = element.querySelector(".rollout-nav")
+        rolloutNav.classList.add("nav-closed")
+    })
+
+
     return element
 }
