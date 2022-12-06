@@ -14,7 +14,7 @@ export let Drink = (props) => {
   element.innerHTML = `
     <div class="drink__product">
             <div class="drink__cup">
-              <img src="https://apps.kodim.cz/daweb/cafelora/assets/cups/${image}.png">
+              <img src="${image}">
             </div>
             <div class="drink__info">
               <h3>${name}</h3>

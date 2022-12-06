@@ -12,33 +12,7 @@ pageElement.classList.add('page');
 let main = document.createElement('main')
 main.append(
     Banner(),
-    Menu({
-        items: [
-            {
-                name: "lungo",
-                image: "lungo",
-                layers: [
-                    {
-                        color: "red",
-                        label: "doppio"
-                    }, {
-                        color: "blue",
-                        label: "voda"
-                    },
-                ]
-            },
-            {
-                name: "doppio",
-                image: "doppio",
-                layers: [
-                    {
-                        color: "red",
-                        label: "doppio"
-                    }
-                ]
-            }
-        ]
-    }),
+    Menu({}),
     Gallery(),
     Contact()
 )
